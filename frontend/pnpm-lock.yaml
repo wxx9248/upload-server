@@ -1137,8 +1137,8 @@ packages:
   muggle-string@0.3.1:
     resolution: {integrity: sha512-ckmWDJjphvd/FvZawgygcUeQCxzvohjFO5RxTjj4eq8kw359gFF3E1brjfI+viLMxss5JrHTDRHZvu2/tuy0Qg==}
 
-  nanoid@3.3.7:
-    resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
+  nanoid@3.3.8:
+    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -2059,7 +2059,7 @@ snapshots:
 
   '@vue/shared@3.4.18': {}
 
-  '@vuetify/loader-shared@2.0.1(vue@3.4.18(typescript@5.3.3))(vuetify@3.5.3(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.18(typescript@5.3.3)))':
+  '@vuetify/loader-shared@2.0.1(vue@3.4.18(typescript@5.3.3))(vuetify@3.5.3)':
     dependencies:
       upath: 2.0.1
       vue: 3.4.18(typescript@5.3.3)
@@ -2647,7 +2647,7 @@ snapshots:
 
   muggle-string@0.3.1: {}
 
-  nanoid@3.3.7: {}
+  nanoid@3.3.8: {}
 
   natural-compare@1.4.0: {}
 
@@ -2713,7 +2713,7 @@ snapshots:
 
   postcss@8.4.35:
     dependencies:
-      nanoid: 3.3.7
+      nanoid: 3.3.8
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
@@ -2898,7 +2898,7 @@ snapshots:
 
   vite-plugin-vuetify@2.0.1(vite@5.1.8(@types/node@20.11.17)(terser@5.27.0))(vue@3.4.18(typescript@5.3.3))(vuetify@3.5.3):
     dependencies:
-      '@vuetify/loader-shared': 2.0.1(vue@3.4.18(typescript@5.3.3))(vuetify@3.5.3(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.18(typescript@5.3.3)))
+      '@vuetify/loader-shared': 2.0.1(vue@3.4.18(typescript@5.3.3))(vuetify@3.5.3)
       debug: 4.3.4
       upath: 2.0.1
       vite: 5.1.8(@types/node@20.11.17)(terser@5.27.0)
